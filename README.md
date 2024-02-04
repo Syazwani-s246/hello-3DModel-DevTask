@@ -2,13 +2,6 @@
 
 Welcome to my first attempt at using Three.js for a development task. The purpose of this task is to insert a 3D model into a web page, provide options for users to change the colors of any materials using color UI buttons, and allow users to view the 3D model in Augmented Reality (AR) using a model viewer.
 
-## Features
-
-- Insertion of a 3D model into the web page.
-- Color UI buttons to change the colors of materials on the 3D model.
-- Multiple variations of the 3D model for users to explore.
-- Viewing the 3D model in Augmented Reality (AR) using a model viewer.
-
 ## Setup Instructions
 
 To run this project, follow these steps:
@@ -43,4 +36,3 @@ To run this project, follow these steps:
 ## Note
 
 This task is still a work in progress and lacks several features. Feel free to contribute and enhance it further!
-```
