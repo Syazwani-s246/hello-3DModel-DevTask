@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Loader</title>
+    <style>
+        #loading-indicator {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            /* Initially hidden */
+            z-index: 1000;
+            /* Ensure it's above other content */
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+		#color-buttons {
+            margin-top: 20px;
+        }
+        #color-buttons button {
+            margin-right: 10px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+	 <!-- Color selection buttons -->
+	 <div id="color-buttons">
+        <button id="red-button">Red</button>
+        <button id="green-button">Green</button>
+        <button id="blue-button">Blue</button>
+    </div>
+    <!-- <script type="module" src="client.js"></script> -->
+    <canvas class="webgl"></canvas>
+    <div id="loading-indicator">Loading...</div>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
